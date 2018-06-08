@@ -1,0 +1,28 @@
+
+6월 07, 2018 09:52:42.76 NEW SESSION
+6월 07, 2018 09:52:42.76 [3724:4340:0607/095242.757:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+6월 07, 2018 09:52:48.78 [3724:3412:0607/095248.789:ERROR:cookie_monster.cc(891)] Found cookies with duplicate creation times in backing store: {name='__utmz', domain='.chrome.google.com', path='/'}
+6월 07, 2018 09:52:49.47 [3724:3412:0607/095249.468:ERROR:cookie_monster.cc(891)] Found cookies with duplicate creation times in backing store: {name='_umdata', domain='g.alicdn.com', path='/'}
+6월 07, 2018 09:52:49.47 [3724:3412:0607/095249.469:ERROR:cookie_monster.cc(891)] Found cookies with duplicate creation times in backing store: {name='__utmz', domain='.apache.org', path='/'}
+6월 07, 2018 09:52:49.47 [3724:3412:0607/095249.469:ERROR:cookie_monster.cc(891)] Found cookies with duplicate creation times in backing store: {name='_ceg.u', domain='.create.arduino.cc', path='/'}
+6월 07, 2018 09:52:49.48 [3724:3412:0607/095249.470:ERROR:cookie_monster.cc(891)] Found cookies with duplicate creation times in backing store: {name='__utmz', domain='.dbpia.co.kr', path='/'}
+6월 07, 2018 09:52:50.28 [3724:3412:0607/095250.287:ERROR:cookie_monster.cc(891)] Found cookies with duplicate creation times in backing store: {name='__utmb', domain='.itworld.co.kr', path='/'}
+6월 07, 2018 09:52:50.28 [3724:3412:0607/095250.287:ERROR:cookie_monster.cc(891)] Found cookies with duplicate creation times in backing store: {name='Trkses_AP1A417248742', domain='.store.kakaofriends.com', path='/'}
+6월 07, 2018 09:52:50.28 [3724:3412:0607/095250.288:ERROR:cookie_monster.cc(891)] Found cookies with duplicate creation times in backing store: {name='_pk_ref.4.ee6d', domain='blog.lael.be', path='/'}
+6월 07, 2018 09:52:50.29 [3724:3412:0607/095250.288:ERROR:cookie_monster.cc(891)] Found cookies with duplicate creation times in backing store: {name='sz', domain='medium.com', path='/'}
+6월 07, 2018 09:52:50.29 [3724:3412:0607/095250.288:ERROR:cookie_monster.cc(891)] Found cookies with duplicate creation times in backing store: {name='tz', domain='medium.com', path='/'}
+6월 07, 2018 09:52:50.29 [3724:3412:0607/095250.288:ERROR:cookie_monster.cc(891)] Found cookies with duplicate creation times in backing store: {name='_biz_uid', domain='.mongodb.com', path='/'}
+6월 07, 2018 09:52:50.29 [3724:3412:0607/095250.288:ERROR:cookie_monster.cc(891)] Found cookies with duplicate creation times in backing store: {name='_ceg.u', domain='.mongodb.com', path='/'}
+6월 07, 2018 09:52:50.29 [3724:3412:0607/095250.288:ERROR:cookie_monster.cc(891)] Found cookies with duplicate creation times in backing store: {name='_conv_v', domain='.mongodb.com', path='/'}
+6월 07, 2018 09:52:50.29 [3724:3412:0607/095250.289:ERROR:cookie_monster.cc(891)] Found cookies with duplicate creation times in backing store: {name='_gid', domain='.ohfun.net', path='/'}
+6월 07, 2018 09:52:50.29 [3724:3412:0607/095250.289:ERROR:cookie_monster.cc(891)] Found cookies with duplicate creation times in backing store: {name='__utmz', domain='.openvim.com', path='/'}
+6월 07, 2018 09:52:50.29 [3724:3412:0607/095250.289:ERROR:cookie_monster.cc(891)] Found cookies with duplicate creation times in backing store: {name='_pk_ses.68.f6f5', domain='optimizilla.com', path='/'}
+6월 07, 2018 09:52:50.29 [3724:3412:0607/095250.290:ERROR:cookie_monster.cc(891)] Found cookies with duplicate creation times in backing store: {name='_gid', domain='.samsungsvc.co.kr', path='/'}
+6월 07, 2018 09:52:50.29 [3724:3412:0607/095250.290:ERROR:cookie_monster.cc(891)] Found cookies with duplicate creation times in backing store: {name='_ceg.u', domain='.seasonstable.co.kr', path='/'}
+6월 07, 2018 09:52:50.29 [3724:3412:0607/095250.291:ERROR:cookie_monster.cc(891)] Found cookies with duplicate creation times in backing store: {name='__utmz', domain='.toki-woki.net', path='/'}
+6월 07, 2018 09:52:50.29 [3724:3412:0607/095250.291:ERROR:cookie_monster.cc(891)] Found cookies with duplicate creation times in backing store: {name='__utmb', domain='.tutorialspoint.com', path='/'}
+6월 07, 2018 09:52:50.29 [3724:3412:0607/095250.291:ERROR:cookie_monster.cc(891)] Found cookies with duplicate creation times in backing store: {name='ck_font_resize_rmv_class', domain='twoseven.kr', path='/'}
+6월 07, 2018 09:52:50.29 [3724:3412:0607/095250.291:ERROR:cookie_monster.cc(891)] Found cookies with duplicate creation times in backing store: {name='__utmb', domain='.help.ubuntu.com', path='/'}
+6월 07, 2018 14:37:21.37 
+6월 07, 2018 14:37:21.37 KLIB_SelfTest return : KLR_OK
+6월 07, 2018 14:37:21.52 Unable to read VR Path Registry from C:\Users\soldesk\AppData\Local\openvr\openvrpaths.vrpath

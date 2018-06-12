@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<style type="text/css">
+canvas {
+	border: black solid 3px;
+}
+</style>
+
+<script type="text/javascript">
+	$(function() {
+		// 그림 그려질 영역
+		var paper = document.getElementById("cv");
+		// 2d그림을 그릴 수 있는 객체
+		var pen = paper.getContext('2d');
+
+		var ballX = 0;
+		var ballY = 0;
+		var xSpd = 2;
+		var ySpd = 2;
+		var barX = 100;
+		var time = 0;
+
+		$("canvas").mousemove(function(e) {
+			barX = e.pageX - 50;
+		});
+
+		var img = new Image();
+		img.src = "Lemon64.png";
+		img.onload = function() {
+
+			// js 타이머
+			var t = setInterval(function() {
+				time += 0.01;
+				$('h1').text(time.toFixed(2));
+				pen.save();
+				ballX += xSpd;
+				ballY += ySpd;
+
+				pen.fillStyle = "rgba(0,0,0,0.09)";
+				pen.fillRect(0, 0, 350, 500);
+
+				pen.shadowBlur = 30;
+				pen.shadowColor = "orange";
+
+				if (ballX >= 320 || ballX <= 0) {
+					xSpd *= -1;
+				}
+				if (ballY <= 0) {
+					ySpd *= -1;
+				}
+				if (ballY + 30 >= 480 && ballX >= barX - 15
+						&& ballX + 30 <= barX + 100 + 15) {
+					ySpd *= -1;
+				}
+				
+				if (ballY > 450){
+					clearInterval(t);
+				}
+
+				pen.drawImage(img, ballX, ballY, 30, 30);
+
+				pen.shadowColor = "white";
+				pen.shadowBlur = 10;
+				pen.fillStyle = "blue";
+				pen.fillRect(barX, 470, 100, 10);
+				pen.restore();
+			}, 1);
+		};
+	});
+</script>
+</head>
+<body>
+	<canvas id="cv" width="350px" height="500px"></canvas>
+	<h1></h1>
+</body>
+</html>

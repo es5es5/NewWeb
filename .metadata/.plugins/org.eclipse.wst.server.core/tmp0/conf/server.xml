@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\soldesk\Desktop\lhw\MyWebApp\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\soldesk\Desktop\lhw\MyWebApp\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Jun07_ChatClient" path="/Jun07_ChatClient" reloadable="true" source="org.eclipse.jst.jee.server:Jun07_ChatClient"/></Host>
+      <Context docBase="C:\Users\soldesk\Desktop\lhw\MyWebApp\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\soldesk\Desktop\lhw\MyWebApp\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Jun07_ChatClient" path="/Jun07_ChatClient" reloadable="true" source="org.eclipse.jst.jee.server:Jun07_ChatClient"/><Context docBase="C:\Users\soldesk\Desktop\lhw\MyWebApp\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Jun12_HTML5Canvas" path="/Jun12_HTML5Canvas" reloadable="true" source="org.eclipse.jst.jee.server:Jun12_HTML5Canvas"/></Host>
     </Engine>
   </Service>
 </Server>
